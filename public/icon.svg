@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="letter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b00"/>
+      <stop offset="50%" stop-color="#ff8533"/>
+      <stop offset="100%" stop-color="#ffa733"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff8533" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="128" x2="512" y2="128" stroke="#ff6b00" stroke-width="1"/>
+    <line x1="0" y1="256" x2="512" y2="256" stroke="#ff6b00" stroke-width="1"/>
+    <line x1="0" y1="384" x2="512" y2="384" stroke="#ff6b00" stroke-width="1"/>
+    <line x1="128" y1="0" x2="128" y2="512" stroke="#ff6b00" stroke-width="1"/>
+    <line x1="256" y1="0" x2="256" y2="512" stroke="#ff6b00" stroke-width="1"/>
+    <line x1="384" y1="0" x2="384" y2="512" stroke="#ff6b00" stroke-width="1"/>
+  </g>
+
+  <!-- Outer glow ring -->
+  <rect x="48" y="48" width="416" height="416" rx="80" fill="none" stroke="url(#ring)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Inner accent ring -->
+  <rect x="64" y="64" width="384" height="384" rx="72" fill="none" stroke="#ff6b00" stroke-width="1" opacity="0.3"/>
+
+  <!-- Glow behind letter -->
+  <text x="256" y="256" font-family="Inter, Arial, sans-serif" font-size="280" font-weight="800"
+        text-anchor="middle" dominant-baseline="central" fill="url(#letter)" filter="url(#glow)" opacity="0.6">
+    H
+  </text>
+
+  <!-- Main letter H -->
+  <text x="256" y="256" font-family="Inter, Arial, sans-serif" font-size="280" font-weight="800"
+        text-anchor="middle" dominant-baseline="central" fill="url(#letter)">
+    H
+  </text>
+
+  <!-- Accent dot -->
+  <circle cx="256" cy="416" r="8" fill="#ff6b00"/>
+  <circle cx="256" cy="416" r="16" fill="#ff6b00" opacity="0.3"/>
+</svg>

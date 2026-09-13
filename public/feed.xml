@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syed Muhammad Hasnain Abdi — Blog</title>
+    <link>https://hasnainabdi.space-z.ai/blog</link>
+    <atom:link href="https://hasnainabdi.space-z.ai/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Articles on Full Stack Development, AI application development, SEO, and freelancing by Syed Muhammad Hasnain Abdi — Full Stack &amp; AI Developer based in Karachi, Pakistan.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Sep 2026 06:39:36 GMT</lastBuildDate>
+    <image>
+      <url>https://hasnainabdi.space-z.ai/icon.svg</url>
+      <title>Syed Muhammad Hasnain Abdi — Blog</title>
+      <link>https://hasnainabdi.space-z.ai/blog</link>
+    </image>
+    <item>
+      <title>How I Built an SEO-Optimized Portfolio with Next.js 16</title>
+      <link>https://hasnainabdi.space-z.ai/blog/how-i-built-an-seo-optimized-portfolio-with-nextjs</link>
+      <guid isPermaLink="true">https://hasnainabdi.space-z.ai/blog/how-i-built-an-seo-optimized-portfolio-with-nextjs</guid>
+      <description>A practical walkthrough of how I built this very portfolio — covering Static Site Generation, JSON-LD structured data, Open Graph images, and a 68-keyword SEO strategy that ranks for &quot;Full Stack Developer Pakistan&quot;.</description>
+      <author>m.hasnainreactions@gmail.com (Syed Muhammad Hasnain Abdi)</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Next.js</category>
+      <category>SEO</category>
+      <category>TypeScript</category>
+      <category>Tailwind CSS</category>
+    </item>
+    <item>
+      <title>Building PWAs with Next.js 16: A Practical Guide</title>
+      <link>https://hasnainabdi.space-z.ai/blog/building-pwas-with-nextjs-practical-guide</link>
+      <guid isPermaLink="true">https://hasnainabdi.space-z.ai/blog/building-pwas-with-nextjs-practical-guide</guid>
+      <description>How I turned a Next.js 16 app into an installable Progressive Web App — covering manifest.webmanifest, standalone mode, service workers, portrait lock, and offline-first UX patterns I used in HarKaam.</description>
+      <author>m.hasnainreactions@gmail.com (Syed Muhammad Hasnain Abdi)</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Next.js</category>
+      <category>PWA</category>
+      <category>Service Worker</category>
+      <category>Mobile</category>
+    </item>
+    <item>
+      <title>Integrating AI APIs in Next.js: A Full Stack Developer&apos;s Playbook</title>
+      <link>https://hasnainabdi.space-z.ai/blog/integrating-ai-apis-nextjs-full-stack-developers</link>
+      <guid isPermaLink="true">https://hasnainabdi.space-z.ai/blog/integrating-ai-apis-nextjs-full-stack-developers</guid>
+      <description>Practical patterns for integrating OpenAI, Gemini AI, and the z-ai-web-dev-sdk into a Next.js 16 App Router codebase — covering server routes, streaming, prompt design, and how I built 7 AI tools in My Skills.</description>
+      <author>m.hasnainreactions@gmail.com (Syed Muhammad Hasnain Abdi)</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>AI</category>
+      <category>Next.js</category>
+      <category>OpenAI</category>
+      <category>z-ai-web-dev-sdk</category>
+    </item>
+    <item>
+      <title>Freelance Full Stack Developer in Pakistan: My Playbook</title>
+      <link>https://hasnainabdi.space-z.ai/blog/freelance-full-stack-developer-pakistan-guide</link>
+      <guid isPermaLink="true">https://hasnainabdi.space-z.ai/blog/freelance-full-stack-developer-pakistan-guide</guid>
+      <description>What I have learned as a freelance Full Stack Developer based in Karachi, Pakistan — finding clients, pricing projects, communicating clearly, and shipping on time without burning out.</description>
+      <author>m.hasnainreactions@gmail.com (Syed Muhammad Hasnain Abdi)</author>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Freelancing</category>
+      <category>Full Stack</category>
+      <category>Career</category>
+      <category>Pakistan</category>
+    </item>
+    <item>
+      <title>ChatGPT GPT Astra: Complete Guide to OpenAI&apos;s GPT-6 Astra Model</title>
+      <link>https://hasnainabdi.space-z.ai/blog/chatgpt-gpt-astra-complete-guide</link>
+      <guid isPermaLink="true">https://hasnainabdi.space-z.ai/blog/chatgpt-gpt-astra-complete-guide</guid>
+      <description>ChatGPT GPT Astra is OpenAI&apos;s GPT-6 Astra model now available to Pro, Enterprise, and Business Premium users. Here is what it can do, how to use it in ChatGPT and the API, and which GPT model is best for your use case.</description>
+      <author>m.hasnainreactions@gmail.com (Syed Muhammad Hasnain Abdi)</author>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category>ChatGPT</category>
+      <category>GPT Astra</category>
+      <category>OpenAI</category>
+      <category>AI</category>
+      <category>GPT-6</category>
+    </item>
+  </channel>
+</rss>
